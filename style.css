@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Tulpen One', cursive;
+    font-size: 90px; */
+}
+
+body {
+
+    height: 100vh;
+    background-color: rgb(30, 54, 107);
+     
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffc947' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scroll 70s linear infinite;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    width: 30vw;
+    background-color: #0A1931;
+    
+
+}
+
+@keyframes scroll {
+    100% {
+        background-position: 0px -3000px;
+    }
+}
+
+@media (prefers-reduced-motion) {
+    .wrapper {
+        animation: scroll 200s linear infinite;
+    }
+}
+ 
+.fa-quote-left{
+    
+    font-size: 50px;
+    color: #16C79A;
+    margin-bottom: 10px;
+
+
+}
+ 
+
+.qoute {
+    text-align: center;
+    font-style: italic;
+    color: #EFEFEF;
+    font-size: 50px;
+
+
+}
+
+.author {
+    font-size: 20px;
+    color: #16C79A;
+}
+
+hr {
+    margin: 20px 0;
+    width: 60%;
+    border: 1px solid #185adb;
+
+}
+
+button {
+
+   
+    text-decoration: none;
+    font-size: 20px;
+
+    background-color: #185adb;
+    color: #16C79A;
+
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+
+    background-color: #16C79A;
+    color: #185adb;
+}
+
+ 
+  @media (min-width: 1281px) {
+  
+    body {
+         
+      }
+      .container{
+           
+          padding: 30px;
+           
+          width: 50vw;
+           
+      }
+    
+  }
+    
+   
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    body {
+        background-color: #185adb;
+      }
+      .container{
+           
+          padding: 10px;
+           /* background-color: rgb(146, 134, 251); */
+          width: 90vw;
+           
+      }
+    
+  }
+    
+   
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    body {
+        background-color: rgb(19, 67, 170);
+      }
+      .container{
+           
+          padding: 10px;
+           
+          width: 90vw;
+           
+      }
+    
+  }
+  
+ 
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+     
+    body {
+        background-color:#96BAFF;
+      }
+      .container{
+           
+          padding: 10px;
+           
+          width: 90vw;
+           
+      }
+    
+  }
+  
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    body {
+        background-color: #EFEFEF;
+      }
+      .container{
+           
+          padding: 10px;
+           
+          width: 90vw;
+           
+      }
+    
+  }
+  
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color:#96BAFF;
+      }
+      
+      .container{
+          
+          padding: 10px;
+          
+          width: 90vw;
+           
+      }
+  
+    
+  }
