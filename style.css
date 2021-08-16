@@ -195,6 +195,17 @@ button:hover {
           width: 90%;
            
       }
+           .qoute {
+         
+        font-size: 23px;
+    }
+    .author{
+         
+        font-size:15px;
+    }
+button{
+    padding: 10px;
+}
     
   }
   
